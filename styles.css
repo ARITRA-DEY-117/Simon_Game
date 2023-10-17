@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-flex;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  font-size: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+#stbtn {
+  font-size: 40px;
+  color: blue;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+#stbtn:hover {
+  box-shadow: 0 0 20px white;
+  color: rgb(203, 97, 65);
+  background-color: rgb(77, 221, 77);
+}
+
+#restbtn {
+  font-size: 40px;
+  color: blue;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+#restbtn:hover {
+  box-shadow: 0 0 20px white;
+  color: rgb(203, 97, 65);
+  background-color: rgb(77, 221, 77);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+footer {
+  color: white;
+}
+
+#gitLink {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-size: 15px;
+}
+
+#gitLink:hover {
+  box-shadow: 0 0 35px yellow;
+  color: white;
+  background-color: black;
+}
