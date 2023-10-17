@@ -108,5 +108,5 @@ function findColor(key) {
 }
 
 $('#gitLink').on('click', function() {
-    window.open("https://www.google.com", "_blank");
+    window.open("https://github.com/ARITRA-DEY-117/Simon_Game", "_blank");
 });
